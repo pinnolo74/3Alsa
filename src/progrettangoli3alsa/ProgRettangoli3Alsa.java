@@ -13,6 +13,7 @@ public class ProgRettangoli3Alsa {
         }
         //scansione dell'array di oggetti e invocazione per ogni oggetto del metodo calcolo perimetro
         for(i=0;i<N;i++){
+            
             System.out.print("il perimetro del rettangolo "+(i+1)+" vale ");
             System.out.println(Figure[i].calcoloPerimetro());
         }
